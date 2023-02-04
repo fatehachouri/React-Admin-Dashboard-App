@@ -10,7 +10,7 @@ import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
 import BarChart from "../../components/BarChart";
-import StatBox from "../../components/StatsBox";
+import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
 
 const Dashboard = () => {
@@ -18,7 +18,7 @@ const Dashboard = () => {
   const colors = tokens(theme.palette.mode);
 
   return (
-    <Box m="20px">
+    <Box m=" 20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
         <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
@@ -43,7 +43,7 @@ const Dashboard = () => {
       <Box
         display="grid"
         gridTemplateColumns="repeat(12, 1fr)"
-        gridAutoRows="140px"
+        gridAutoRows="128px"
         gap="20px"
       >
         {/* ROW 1 */}
